@@ -5,8 +5,9 @@
     outline: 0;
 }
 
-// importando as variaveis de cores que defini no arquivo colors.scss
+
 @import "partials/colors";
+@import "partials/header"; 
 
 body {
     font-family: 'Sora', sans-serif;
