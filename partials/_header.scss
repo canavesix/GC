@@ -1,4 +1,3 @@
-
 header {
     width: 100%;
 }
@@ -19,14 +18,14 @@ i {
 }
 
 .header-icons a:hover {
-    i{
+    i {
         animation: translateY 0.8s infinite alternate;
         color: $red-light;
     }
 }
 
 @keyframes translateY {
-   from{
+   from {
     transform: translateY(0) scale(1);
    } 
    to {
@@ -34,7 +33,7 @@ i {
    }
 }
 
-.header-button{
+.header-button {
     border: 1px solid $white-normal;
     padding: 8px 24px;
     border-radius: 4px;
@@ -48,7 +47,7 @@ i {
     background-color: $red-light;
 }
 
-.header-logo{
+.header-logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,17 +55,17 @@ i {
 }
 
 @media screen and (max-width: 768px) {
-    .header-content{
+    .header-content {
         width: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     
-    i{
-        margin-top: 16px;
-        font-size: 34px;
+        i {
+            margin-top: 16px;
+            font-size: 34px;
+        }
     }
-}
 
     .header-logo img {
         width: 160px;
