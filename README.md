@@ -1,2 +1,2 @@
 # GC-
-One Page Academia
+Esqueleto para landing page
