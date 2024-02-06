@@ -234,6 +234,15 @@
     color: $white-normal;
 }
 
+@media screen and (max-width: 768px){
+    .footer {
+        p {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}
+
 // botao whatsapp // 
 
 .btn-whatsapp {
